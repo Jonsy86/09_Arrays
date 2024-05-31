@@ -7,8 +7,8 @@ public class App {
     public static void main(String[] args) {
 
       	// // Deklaration: int
-		// int [] intArr = new int [4];
-		// output("Länge Array: " + intArr.length);	
+		//  int [] intArr = new int [4];
+		//  output("Länge Array: " + intArr.length);	
 		
 		// // Index
 		// output("3. Element " + intArr[2]);
@@ -50,30 +50,30 @@ public class App {
 		// }
 		
 		// // Deklaration | Chars
-		// char [] letters = {'d','c','a','A','b'};
+		 char [] letters = {'d','c','a','A','b'};
 	
-		// 	output("");
-		// 	output("---- vor Sortierung: ");
-		// 	for (int i = 0; i < letters.length; i++) {
-		// 		output(letters[i]);	
-		// 	}
+		 	output("");
+		 	output("---- vor Sortierung: ");
+		 	for (int i = 0; i < letters.length; i++) {
+		 		output(letters[i]);	
+		 	}
 
 		// // Sortierfkt. --> sortiertes Array
-		// Arrays.sort(letters);  // Statische Klasse | Methode
+		 Arrays.sort(letters);  // Statische Klasse | Methode
 
-		// output("");
-		// output("---- nach Sortierung: ");
-		// for (int i = 0; i < letters.length; i++) {
-		// 	output(letters[i]);	
-		// }
+		 output("");
+		 output("---- nach Sortierung: ");
+		 for (int i = 0; i < letters.length; i++) {
+		 	output(letters[i]);	
+		 }
 
 		// 	output("");
 		// 	output("---- Suche: erfolgreich ----");
 		// 	// ... danach Suche (1)
-		// 	int searchIndex = Arrays.binarySearch(letters,'a');
-		// 	output("");
-		// 	output("---- Binäre Suche: ");
-		// 	output("searchIndex: " + searchIndex);
+		 	int searchIndex = Arrays.binarySearch(letters,'a');
+		 	output("");
+		 	output("---- Binäre Suche: ");
+		 	output("searchIndex: " + searchIndex);
 		
 		// 	// output("---- Suche: erfolglos ----");
 		// 	// ... danach Suche (2)
